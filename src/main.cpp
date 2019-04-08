@@ -70,7 +70,6 @@ void reconnect() {
       // Once connected, publish an announcement...
       client.publish("outTopic","hello world");
       // ... and resubscribe
-      client.subscribe("inTopic");
       client.subscribe("AttivaRele");
       client.subscribe("DisattivaRele");
     } else {
