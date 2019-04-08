@@ -6,15 +6,15 @@
 byte mac[]    = {  0xDE, 0xED, 0xBA, 0xFE, 0xFE, 0xED };
 IPAddress server(192, 168, 1, 245);
 
-#define RELAY1 13 // pin ai quali sono connessi i relè
-#define RELAY2 12
-#define RELAY3 27
-#define RELAY4 33
+#define RELAY1 5 // pin ai quali sono connessi i relè
+#define RELAY2 18
+#define RELAY3 19
+#define RELAY4 16
 //pin ai quali sono connessi i bottoni 
-#define BUTTON1 21
-#define BUTTON2 4
+#define BUTTON1 34
+#define BUTTON2 39
 #define BUTTON3 36 
-#define BUTTON4 39
+#define BUTTON4 4
 //-----------parte relativa al controllo dei bottoni
 const int numberOfButton = 4;
 long unsigned int timeOut[numberOfButton] = {};
