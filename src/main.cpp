@@ -10,12 +10,11 @@ IPAddress server(192, 168, 1, 245);
 #define RELAY2 12
 #define RELAY3 27
 #define RELAY4 33
-
-#define BUTTON1 15 //pin ai quali sono connessi i bottoni 
-#define BUTTON2 32
-#define BUTTON3 14
-#define BUTTON4 21
-
+//pin ai quali sono connessi i bottoni 
+#define BUTTON1 21
+#define BUTTON2 4
+#define BUTTON3 36 
+#define BUTTON4 39
 //-----------parte relativa al controllo dei bottoni
 const int numberOfButton = 4;
 long unsigned int timeOut[numberOfButton] = {};
